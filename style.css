@@ -15,7 +15,16 @@ html {
 .container {
     max-width: 1280px;
     margin: auto;
+
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 25px;
 }
+
+/*MENU*/
+.bi-list {
+    display: none;
+} /*MENU*/
 
 .flex {
     display: flex;
@@ -42,7 +51,7 @@ header.rolagem a, header.rolagem i {
 }
 
 header i {
-    font-size: 30px;
+    font-size: 3em;
     color: rgb(255, 87, 4);
 }
 
@@ -56,7 +65,8 @@ header ul li {
 }
 
 header ul li a {
-    color: rgb(255, 87, 4);
+    color: red;
+    font-size: 1.5em;
     text-decoration: none;
 }
 

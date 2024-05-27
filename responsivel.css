@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*RESPONSIVEL 1200px*/
+@media (max-width: 1200px) {
+    /* Estilos para telas com largura máxima de 768px (celulares) */
+    .banner h1 {
+        font-size: 3em;
+    }
+  }
+/*RESPONSIVEL 1200px*/
+
+/*RESPONSIVEL 850px*/
+@media (max-width: 850px) {
+    /* Estilos para telas com largura máxima de 768px (celulares) */
+    .bi-list {
+        display: flex;
+        font-size: 50px;
+        cursor: pointer;
+    }
+    .flex {
+        display: none;
+    }
+    .banner h1 {
+        font-size: 2.5em;
+    }
+  }
+/*RESPONSIVEL 850px*/
+  
